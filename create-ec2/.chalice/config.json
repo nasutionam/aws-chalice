@@ -1,0 +1,16 @@
+{
+  "version": "2.0",
+  "app_name": "create-ec2",
+  "stages": {
+    "dev": {
+      "environment_variables": {
+        "AMI": "ami-0c2ab3b8efb09f272",
+        "INSTANCE_TYPE" : "t2.micro",
+        "KEY_NAME": "asri-test-oregon",
+        "SUBNET_ID": "subnet-0a59112bb29c5144c"
+      },
+      "autogen_policy": false,
+      "iam_policy_file": "my-policy.json"
+    }
+  }
+}
